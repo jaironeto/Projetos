@@ -1,0 +1,242 @@
+/* Reset */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --primary:#7B8CDE;
+  --primary-hover:#6A7BD8;
+  --border:#C7CFEB;
+  --border-focus:#7B8CDE;
+  --text:#2E334E;
+  --text-light:#7A8196;
+  --text-muted:#9AA0B6;
+  --bg:#FFFFFF;
+  --radius-pill:999px;
+}
+html, body{
+  height:100%;
+  overflow:hidden;
+}
+body{
+  font-family:'Inter', system-ui, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ===== ESTRUTURA ORIGINAL - só com classes ===== */
+.page{
+  width:100%;
+  max-width:1380px;
+  margin:0 auto;
+  height:100vh;
+  max-height:100vh;
+  overflow:hidden;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:32px;
+  padding:16px 52px 10px;
+  position:relative;
+}
+
+/* LOGIN - primeira section */
+.login{
+  width:100%;
+  max-width:380px;
+  margin-left:28px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.login__title{
+  font-family:'Poppins', sans-serif;
+  font-weight:700;
+  font-size:17px;
+  letter-spacing:1.6px;
+  color:#2F344E;
+  margin-bottom:6px;
+}
+.login__subtitle{
+  font-size:13px;
+  color:var(--text-light);
+  margin-bottom:18px;
+}
+.login__signup{
+  color:var(--primary);
+  font-weight:600;
+  cursor:pointer;
+}
+.login__form{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+.form__label{
+  font-size:12.5px;
+  font-weight:600;
+  color:#3E445E;
+  margin-top:6px;
+}
+.form__label:first-of-type{margin-top:0}
+.form__input{
+  width:100%;
+  height:40px;
+  border:1.5px solid var(--border);
+  border-radius:var(--radius-pill);
+  padding:0 18px;
+  font-size:13px;
+  outline:none;
+  background:#fff;
+  transition:border-color .2s, box-shadow .2s;
+}
+.form__input::placeholder{color:#B8BFD6;font-size:12px}
+.form__input:focus{
+  border-color:var(--border-focus);
+  box-shadow:0 0 0 3px rgba(123,140,222,.12);
+}
+.form__input--password{letter-spacing:2px}
+
+/* Remember + Forget */
+.login__options{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:10px 0 4px;
+}
+.checkbox{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:11.5px;
+  color:var(--text-light);
+  cursor:pointer;
+  user-select:none;
+}
+.checkbox__input{
+  width:16px;
+  height:16px;
+  accent-color:var(--primary);
+  border-radius:50%;
+}
+.forgot{
+  font-size:11.5px;
+  color:var(--primary);
+  font-weight:500;
+  cursor:pointer;
+}
+
+/* Botão */
+.btn{
+  width:100%;
+  height:40px;
+  background:var(--primary);
+  color:#fff;
+  border:none;
+  border-radius:var(--radius-pill);
+  font-size:13.5px;
+  font-weight:600;
+  cursor:pointer;
+  margin-top:4px;
+  box-shadow:0 5px 14px rgba(123,140,222,.26);
+  transition:background .2s;
+}
+.btn:hover{background:var(--primary-hover)}
+
+/* Divider "or continue with" */
+.divider{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:12px 0 4px;
+  font-size:11px;
+  color:var(--text-muted);
+  text-align:center;
+}
+.divider::before,
+.divider::after{
+  content:'';
+  flex:1;
+  height:1px;
+  background:#E6E8F0;
+}
+
+/* Social */
+.social{
+  display:flex;
+  gap:12px;
+  margin-top:4px;
+}
+.social__icon{
+  width:76px;
+  height:38px;
+  border:1px solid #E4E6F1;
+  border-radius:8px;
+  padding:8px;
+  object-fit:contain;
+  background:#fff;
+  cursor:pointer;
+  transition:border-color .2s;
+}
+.social__icon:hover{border-color:var(--border)}
+
+/* HERO - segunda section */
+.hero{
+  flex:1;
+  height:100%;
+  max-height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  min-height:0;
+  overflow:hidden;
+}
+.hero__image{
+  width:100%;
+  max-width:620px;
+  max-height:68vh;
+  object-fit:contain;
+}
+
+/* Topbar dentro do hero */
+.topbar{
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:10;
+}
+.topbar__list{
+  display:flex;
+  align-items:center;
+  gap:28px;
+  list-style:none;
+}
+.topbar__item{
+  font-size:12.5px;
+  font-weight:500;
+  color:var(--text-light);
+  cursor:pointer;
+}
+.topbar__item:hover{color:var(--text)}
+.topbar__item--icon{display:flex}
+.topbar__icon{width:16px;height:16px}
+
+/* Altura baixa - notebook */
+@media (max-height: 780px){
+  .hero__image{max-height:62vh;max-width:560px}
+  .form__input{height:38px}
+  .btn{height:38px}
+}
+@media (max-height: 700px){
+  .hero__image{max-height:56vh;max-width:500px}
+  .page{padding-top:8px}
+}
+
+/* Mobile */
+@media (max-width: 860px){
+  html, body{overflow:auto;height:auto}
+  .page{flex-direction:column-reverse;height:auto;max-height:none;overflow:visible;padding:20px}
+  .hero{height:auto;max-height:none;overflow:visible}
+  .hero__image{max-height:none}
+  .topbar{position:static;margin-bottom:12px;align-self:flex-end}
+  .login{max-width:420px;margin:0}
+}

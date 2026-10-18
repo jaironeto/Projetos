@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.raiz{
+  display:flex;
+  min-height:100vh;
+  width:100%;
+  background-image: url('./MacBook\ Pro\ 14_\ -\ 2.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section1{
+  min-width: 50%;
+}
+
+/* Terra */
+.planeta{
+  position:absolute;
+  left: 12%;
+  bottom: 8%;
+  width: 260px;
+  height: 260px;
+  background-image: url('./dVectary\ texture.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Astronauta */
+.astronauta{
+  position:absolute;
+  left: 28%;
+  top: 28%;
+  width: 140px;
+  height: 180px;
+  background-image: url('./Vectary\ texture.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* LADO DIREITO */
+.section2{
+  min-width: 50%;
+  background: #ffffff;
+  border-radius: 14px;
+  margin: 14px 14px 14px 0;
+  padding: 45px 50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Título Create Account */
+.section2 > p:first-child{
+  text-align:center;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 28px;
+}
+
+/* Container dos botões Google / Facebook */
+.icons{
+  display:flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.vicons{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  padding: 9px 10px;
+  cursor:pointer;
+  background:#fff;
+}
+
+.vicons:hover{
+  background:#f9f9f9;
+}
+
+.vicons img{
+  width:18px;
+  height:18px;
+  object-fit: contain;
+}
+
+.vicons p{
+  font-size: 11px;
+  font-weight: 500;
+  color:#333;
+}
+
+/* - OR - */
+.section2 > p:nth-of-type(2){
+  text-align:center;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:2px;
+  color:#999;
+  margin: 18px 0 22px 0;
+}
+
+/* Inputs */
+.section2 input{
+  width:100%;
+  border:none;
+  border-bottom:1px solid #e0e0e0;
+  padding: 12px 0 10px 0;
+  margin-bottom: 20px;
+  outline:none;
+  font-size:13px;
+  color:#333;
+}
+
+.section2 input::placeholder{
+  color:#9a9a9a;
+  font-size:12px;
+}
+
+.section2 input:focus{
+  border-bottom-color:#2e9d7d;
+}
+
+.section2 button{
+  width:100%;
+  background:#2e9d7d;
+  color:#fff;
+  border:none;
+  border-radius:7px;
+  padding:12px;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:0.5px;
+  cursor:pointer;
+  margin-top:10px;
+  transition:.2s;
+}
+
+.section2 button:hover{
+  background:#268a6a;
+}
+
+/* Já tem conta? */
+.section2 > p:last-child{
+  text-align:center;
+  font-size:11px;
+  color:#9a9a9a;
+  margin-top:18px;
+}
+
+.section2 > p:last-child span{
+  color:#2e9d7d;
+  font-weight:700;
+  cursor:pointer;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48">
+  <!-- Icon -->
+  <g transform="translate(0,4)">
+    <!-- open book bottom teal -->
+    <path d="M3 22 Q 12 26 21 22.5 L 21 27 Q 12 31 3 27 Z" fill="#14A0A0"/>
+    <path d="M21 22.5 Q 30 26 39 22 L 39 27 Q 30 31 21 27 Z" fill="#0E8B8B"/>
+    <!-- book pages orange -->
+    <path d="M3 18.5 Q 12 22 21 18.5 L 21 22.5 Q 12 26 3 22 Z" fill="#FF9A4A"/>
+    <path d="M21 18.5 Q 30 22 39 18.5 L 39 22 Q 30 26 21 22.5 Z" fill="#FF8C32"/>
+    <!-- graduation cap -->
+    <g transform="translate(10,0)">
+      <path d="M1 10 L 11 3 L 21 10 L 11 17 Z" fill="#FF8C32"/>
+      <path d="M2.5 11.5 L 2.5 15 Q 11 19 19.5 15 L 19.5 11.5" fill="#FF9A4A" stroke="#FF8C32" stroke-width="0.8" stroke-linejoin="round"/>
+      <!-- tassel -->
+      <circle cx="19.5" cy="16.2" r="1.2" fill="#0E8B8B"/>
+    </g>
+  </g>
+  <!-- Text -->
+  <text x="52" y="30" font-family="Inter, Poppins, Segoe UI, sans-serif" font-weight="800" font-size="20" fill="#0E7A6D" letter-spacing="0.3">E-ONLINE</text>
+</svg>
