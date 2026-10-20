@@ -1,0 +1,263 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.pagina {
+}
+
+.cabecalho {
+}
+
+.cabecalho__logo {height: 55PX;}
+
+.cabecalho__navegacao {
+}
+
+.cabecalho__menu {display: flex;list-style: none;}
+
+.cabecalho__menu-item {margin-left: 20px;}
+
+.cabecalho__link {
+}
+
+.cabecalho__link--home {
+}
+
+.cabecalho__link--sobre {
+}
+
+.cabecalho__link--cursos {
+}
+
+.cabecalho__link--blog {
+}
+
+.cabecalho__link--contato {
+}
+
+.cabecalho__botao {
+}
+
+.cabecalho__botao--acao {
+}
+
+.conteudo-principal {
+}
+
+.background1 {
+}
+
+.secao-hero {
+}
+
+.secao-hero__titulo {
+}
+
+.secao-hero__subtitulo {
+}
+
+.secao-hero__formulario {
+}
+
+.formulario-busca {
+}
+
+.formulario-busca__seletor {
+}
+
+.formulario-busca__opcao {
+}
+
+.formulario-busca__campo {
+}
+
+.formulario-busca__botao {
+}
+
+.secao-hero__imagem {
+}
+
+.background2 {
+}
+
+.secao-estatisticas {
+}
+
+.secao-estatisticas__conteudo {
+}
+
+.secao-estatisticas__lista {
+}
+
+.secao-estatisticas__item {
+}
+
+.secao-estatisticas__card {
+}
+
+.secao-estatisticas__icone {
+}
+
+.secao-estatisticas__info {
+}
+
+.secao-estatisticas__rotulo {
+}
+
+.secao-estatisticas__valor {
+}
+
+.secao-cursos {
+}
+
+.secao-cursos__titulo {
+}
+
+.secao-cursos__filtros {
+}
+
+.secao-cursos__filtro {
+}
+
+.secao-cursos__filtro--todos {
+}
+
+.secao-cursos__filtro--negocios {
+}
+
+.secao-cursos__filtro--design {
+}
+
+.secao-cursos__filtro--desenvolvimento {
+}
+
+.secao-cursos__filtro--gestao {
+}
+
+.secao-cursos__filtro--tecnologia {
+}
+
+.secao-cursos__filtro--foto {
+}
+
+.secao-cursos__card {
+}
+
+.curso-card {
+}
+
+.curso-card__imagem {
+}
+
+.curso-card__preco {
+}
+
+.curso-card__avaliacao {
+}
+
+.curso-card__titulo {
+}
+
+.curso-card__instrutor {
+}
+
+.curso-card__destaque {
+}
+
+.curso-card__divisor {
+}
+
+.curso-card__meta {
+}
+
+.curso-card__meta-item {
+}
+
+.curso-card__meta-item--alunos {
+}
+
+.curso-card__meta-item--duracao {
+}
+
+#cabecalho-principal {display: flex;margin: 0px 0px 0px 184px;}
+
+#navegacao-principal {margin: 18px 160px 0px 160px;}
+
+#botao-comecar {height: 30px;}
+
+#conteudo-principal {
+}
+
+#secao-hero {
+}
+
+#titulo-principal {
+}
+
+#formulario-busca {
+}
+
+#seletor-categoria {
+}
+
+#campo-busca {
+}
+
+#botao-buscar {
+}
+
+#imagem-hero {
+}
+
+#secao-estatisticas {
+}
+
+#conteudo-estatisticas {
+}
+
+#estatistica-alunos {
+}
+
+#estatistica-cursos {
+}
+
+#estatistica-instrutores {
+}
+
+#secao-cursos {
+}
+
+#titulo-cursos {
+}
+
+#filtros-cursos {
+}
+
+#curso-1 {
+}
+
+#curso-2 {
+}
+
+#curso-3 {
+}
+
+#curso-4 {
+}
+
+#curso-5 {
+}
+
+#curso-6 {
+}
+
+#curso-7 {
+}
+

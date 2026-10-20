@@ -1,68 +1,73 @@
 <!DOCTYPE html>
-<html>
-<meta>
-</meta>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titulo da pagina em até 60 caracteres</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-<body>
-  <header>
-    <ul>
-      <img src="" alt="" /> <!--falta fazer-->
-      <nav>
-        <a href="">Home</a> <!--falta fazer-->
-        <a href="">About</a> <!--falta fazer-->
-        <a href="">Courses</a> <!--falta fazer-->
-        <a href="">Blog</a> <!--falta fazer-->
-        <a href="">Contact</a> <!--falta fazer-->
-      </nav>
-    </ul>
+<body class="pagina">
+  <header class="cabecalho" id="cabecalho-principal">
+    <img class="cabecalho__logo" src="image\logo_eonline_transparent.png" alt="Logo" />
+    <nav class="cabecalho__navegacao" id="navegacao-principal">
+      <ul class="cabecalho__menu">
+        <li class="cabecalho__menu-item"><a class="cabecalho__link cabecalho__link--home" href="">Home</a></li>
+        <li class="cabecalho__menu-item"><a class="cabecalho__link cabecalho__link--sobre" href="">About</a></li>
+        <li class="cabecalho__menu-item"><a class="cabecalho__link cabecalho__link--cursos" href="">Courses</a></li>
+        <li class="cabecalho__menu-item"><a class="cabecalho__link cabecalho__link--blog" href="">Blog</a></li>
+        <li class="cabecalho__menu-item"><a class="cabecalho__link cabecalho__link--contato" href="">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="cabecalho__botao cabecalho__botao--acao" type="button" id="botao-comecar">Get Started</button>
   </header>
-  <main>
-    <div class="background1">
-      <h1>Learn best Online Courses</h1>
-      <p>48,000 Online Courses for you</p>
-      <form>
-        <select name="Category">
-          <option>opção 1</option>
-          <option>opção 2</option>
-          <option>opção 3</option>
+
+  <main class="conteudo-principal" id="conteudo-principal">
+    <div class="background1 secao-hero" id="secao-hero">
+      <h1 class="secao-hero__titulo" id="titulo-principal">Learn best Online Courses</h1>
+      <p class="secao-hero__subtitulo">48,000 Online Courses for you</p>
+      <form class="secao-hero__formulario formulario-busca" id="formulario-busca">
+        <select class="formulario-busca__seletor" name="Category" id="seletor-categoria">
+          <option class="formulario-busca__opcao" value="op1">opção 1</option>
+          <option class="formulario-busca__opcao" value="op2">opção 2</option>
+          <option class="formulario-busca__opcao" value="op3">opção 3</option>
         </select>
-        <input type="search" name="category" placeholder="What do you want to learn ?" autocomplete="off"
-          aria-label="O que você quer aprender">
-        <button type="submit">Search</button>
+        <input class="formulario-busca__campo" type="search" name="category" id="campo-busca" placeholder="What do you want to learn ?" autocomplete="off" aria-label="O que você quer aprender">
+        <button class="formulario-busca__botao" type="submit" id="botao-buscar">Search</button>
       </form>
     </div>
 
-    <img src="image\hero_original.svg" alt="imagem alunos" />
+    <img class="secao-hero__imagem" id="imagem-hero" src="image/hero_original.svg" alt="imagem alunos" />
 
-    <div class="background2">
-      <section>
-        <ul>
-          <li>
-            <div>
-              <img src="" />
-              <div>
-                <p>Enrolled Studens</p>
-                <data>000</data>
+    <div class="background2 secao-estatisticas" id="secao-estatisticas">
+      <section class="secao-estatisticas__conteudo" id="conteudo-estatisticas">
+        <ul class="secao-estatisticas__lista">
+          <li class="secao-estatisticas__item" id="estatistica-alunos">
+            <div class="secao-estatisticas__card">
+              <img class="secao-estatisticas__icone" src="" alt="" />
+              <div class="secao-estatisticas__info">
+                <p class="secao-estatisticas__rotulo">Enrolled Studens</p>
+                <data class="secao-estatisticas__valor" value="0">000</data>
               </div>
             </div>
           </li>
 
-          <li>
-            <div>
-              <img src="" />
-              <div>
-                <p>Online Courses</p>
-                <data>000</data>
+          <li class="secao-estatisticas__item" id="estatistica-cursos">
+            <div class="secao-estatisticas__card">
+              <img class="secao-estatisticas__icone" src="" alt="" />
+              <div class="secao-estatisticas__info">
+                <p class="secao-estatisticas__rotulo">Online Courses</p>
+                <data class="secao-estatisticas__valor" value="0">000</data>
               </div>
             </div>
           </li>
 
-          <li>
-            <div>
-              <img src="" />
-              <div>
-                <p>Expert instructors</p>
-                <data>000</data>
+          <li class="secao-estatisticas__item" id="estatistica-instrutores">
+            <div class="secao-estatisticas__card">
+              <img class="secao-estatisticas__icone" src="" alt="" />
+              <div class="secao-estatisticas__info">
+                <p class="secao-estatisticas__rotulo">Expert instructors</p>
+                <data class="secao-estatisticas__valor" value="0">000</data>
               </div>
             </div>
           </li>
@@ -70,20 +75,110 @@
       </section>
     </div>
 
-    <section>
-      <h2>Our Online Courses</h2>
-      <ul>
-        <li>ALL</li>
-        <li>BUSINES</li>
-        <li>DESIGN</li>
-        <li>DEVELOPMENT</li>
-        <li>MANAGEMENT</li>
-        <li>TECNOLOGY</li>
-        <li>PHOTO</li>
-
+    <section class="secao-cursos" id="secao-cursos">
+      <h2 class="secao-cursos__titulo" id="titulo-cursos">Our Online Courses</h2>
+      <ul class="secao-cursos__filtros" id="filtros-cursos">
+        <li class="secao-cursos__filtro secao-cursos__filtro--todos">ALL</li>
+        <li class="secao-cursos__filtro secao-cursos__filtro--negocios">BUSINES</li>
+        <li class="secao-cursos__filtro secao-cursos__filtro--design">DESIGN</li>
+        <li class="secao-cursos__filtro secao-cursos__filtro--desenvolvimento">DEVELOPMENT</li>
+        <li class="secao-cursos__filtro secao-cursos__filtro--gestao">MANAGEMENT</li>
+        <li class="secao-cursos__filtro secao-cursos__filtro--tecnologia">TECNOLOGY</li>
+        <li class="secao-cursos__filtro secao-cursos__filtro--foto">PHOTO</li>
       </ul>
+
+      <article class="secao-cursos__card curso-card" id="curso-1">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
+      <article class="secao-cursos__card curso-card" id="curso-2">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
+      <article class="secao-cursos__card curso-card" id="curso-3">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
+      <article class="secao-cursos__card curso-card" id="curso-4">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
+      <article class="secao-cursos__card curso-card" id="curso-5">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
+      <article class="secao-cursos__card curso-card" id="curso-6">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
+      <article class="secao-cursos__card curso-card" id="curso-7">
+        <img class="curso-card__imagem" src="" alt="Imagem do curso" />
+        <span class="curso-card__preco">$80</span>
+        <span class="curso-card__avaliacao" role="img" aria-label="5 estrelas">⭐⭐⭐⭐⭐</span>
+        <h3 class="curso-card__titulo">moster web Design</h3>
+        <p class="curso-card__instrutor">Lecturer <span class="curso-card__destaque">admin</span> in <span class="curso-card__destaque">Creative Design</span></p>
+        <hr class="curso-card__divisor" />
+        <ul class="curso-card__meta">
+          <li class="curso-card__meta-item curso-card__meta-item--alunos">📚 20026</li>
+          <li class="curso-card__meta-item curso-card__meta-item--duracao">⏱️ 12h 28m</li>
+        </ul>
+      </article>
+
     </section>
   </main>
 </body>
-
 </html>
