@@ -1,0 +1,1 @@
+- Usei IA só para inserir class/id no html e css para melhor codar 
