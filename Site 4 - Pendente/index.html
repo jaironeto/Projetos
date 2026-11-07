@@ -24,23 +24,29 @@
   </header>
 
   <main class="conteudo-principal" id="conteudo-principal">
-    <div class="background1 secao-hero" id="secao-hero">
-      <h1 class="secao-hero__titulo" id="titulo-principal">Learn best Online Courses</h1>
-      <p class="secao-hero__subtitulo">48,000 Online Courses for you</p>
-      <form class="secao-hero__formulario formulario-busca" id="formulario-busca">
-        <select class="formulario-busca__seletor" name="Category" id="seletor-categoria">
-          <option class="formulario-busca__opcao" value="op1">opção 1</option>
-          <option class="formulario-busca__opcao" value="op2">opção 2</option>
-          <option class="formulario-busca__opcao" value="op3">opção 3</option>
-        </select>
-        <input class="formulario-busca__campo" type="search" name="category" id="campo-busca"
-          placeholder="What do you want to learn ?" autocomplete="off" aria-label="O que você quer aprender">
-        <button class="formulario-busca__botao" type="submit" id="botao-buscar">Search</button>
-      </form>
+    <div class="linear-degrade-img">
+      <div class="background1 secao-hero" id="secao-hero">
+        <div class="flex-titulo">
+          <h1 class="secao-hero__titulo" id="titulo-principal">Learn best Online Courses</h1>
+        </div>
+        <p class="secao-hero__subtitulo"><span id="jsNumeroCurso">48,000</span> Online Courses for you</p>
+        <form class="secao-hero__formulario formulario-busca" id="formulario-busca">
+          <select class="formulario-busca__seletor" name="Category" id="seletor-categoria-1">
+            <option value="" disabled selected hidden>Category</option>
+            <option class="formulario-busca__opcao" value="op1">opção 1</option>
+            <option class="formulario-busca__opcao" value="op2">opção 2</option>
+            <option class="formulario-busca__opcao" value="op3">opção 3</option>
+          </select>
+          <input class="formulario-busca__campo" type="search" name="category" id="campo-busca"
+            placeholder="What do you want to learn ?" autocomplete="off" aria-label="O que você quer aprender">
+          <button class="formulario-busca__botao" type="submit" id="botao-buscar">Search</button>
+        </form>
+      </div>
+      <div class="flex-image-profealuno">
+        <img class="secao-hero__imagem" id="imagem-hero" src="image\hero_transparent.png" alt="imagem alunos" />
+      </div>
     </div>
-    <div class="flex-image-profealuno">
-      <img class="secao-hero__imagem" id="imagem-hero" src="image\hero_transparent.png" alt="imagem alunos" />
-    </div>
+    <!--Parte 2-->
     <div class="background2 secao-estatisticas" id="secao-estatisticas">
       <section class="secao-estatisticas__conteudo" id="conteudo-estatisticas">
         <ul class="secao-estatisticas__lista">
