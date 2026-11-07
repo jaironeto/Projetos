@@ -12,12 +12,11 @@
   padding-inline-start: 0px;
 }
 
-.pagina {
-}
+.pagina {}
 
-.linear-degrade-img{
+.linear-degrade-img {
   background-color: #E8F7F9;
-    background: linear-gradient(to bottom, #E8F7F9 0%, #FFFFFF 120%);
+  background: linear-gradient(to bottom, #E8F7F9 0%, #FFFFFF 120%);
 
 }
 
@@ -25,64 +24,67 @@
   background-color: #E8F7F9;
 }
 
-.cabecalho__logo {height: 55PX;}
-
-.cabecalho__navegacao {
+.cabecalho__logo {
+  height: 55PX;
 }
 
-.cabecalho__menu {display: flex;list-style: none;}
+.cabecalho__navegacao {}
 
-.cabecalho__menu-item {margin-left: 20px;}
-
-.cabecalho__link {font-family: 'Poppins', sans-serif;font-size: 17px;letter-spacing: 0.2px;text-decoration: none;color: black;}
-
-.cabecalho__link--home {font-family: 'Poppins', sans-serif;}
-
-.cabecalho__link--sobre {
+.cabecalho__menu {
+  display: flex;
+  list-style: none;
 }
 
-.cabecalho__link--cursos {
+.cabecalho__menu-item {
+  margin-left: 20px;
 }
 
-.cabecalho__link--blog {
+.cabecalho__link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: black;
 }
 
-.cabecalho__link--contato {
+.cabecalho__link--home {
+  font-family: 'Poppins', sans-serif;
 }
 
-.cabecalho__botao {
-}
+.cabecalho__link--sobre {}
 
-.cabecalho__botao--acao {
-}
+.cabecalho__link--cursos {}
 
-.conteudo-principal {
-}
+.cabecalho__link--blog {}
 
-.background1 {
-}
+.cabecalho__link--contato {}
 
-.secao-hero {
-}
+.cabecalho__botao {}
 
-.flex-titulo{
+.cabecalho__botao--acao {}
+
+.conteudo-principal {}
+
+.background1 {}
+
+.secao-hero {}
+
+.flex-titulo {
   display: flex;
   justify-content: center;
   padding-top: 80px;
 }
 
-.secao-hero__titulo {
-}
+.secao-hero__titulo {}
 
 .secao-hero__subtitulo {
   text-align: center;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
 
-.secao-hero__formulario {
-}
+.secao-hero__formulario {}
 
 .formulario-busca {
   background-color: #FFFFFF;
@@ -95,132 +97,92 @@
   border-radius: 5px;
 }
 
-.formulario-busca__seletor {
+.formulario-busca__seletor {}
 
-}
+.formulario-busca__opcao {}
 
-.formulario-busca__opcao {
-}
+.formulario-busca__campo {}
 
-.formulario-busca__campo {
-}
+.formulario-busca__botao {}
 
-.formulario-busca__botao {
-}
+.secao-hero__imagem {}
 
-.secao-hero__imagem {
-}
+.background2 {}
 
-.background2 {
-}
+.secao-estatisticas {}
 
-.secao-estatisticas {
-}
+.secao-estatisticas__conteudo {}
 
-.secao-estatisticas__conteudo {
-}
+.secao-estatisticas__lista {}
 
-.secao-estatisticas__lista {
-}
+.secao-estatisticas__item {}
 
-.secao-estatisticas__item {
-}
+.secao-estatisticas__card {}
 
-.secao-estatisticas__card {
-}
+.secao-estatisticas__icone {}
 
-.secao-estatisticas__icone {
-}
+.secao-estatisticas__info {}
 
-.secao-estatisticas__info {
-}
+.secao-estatisticas__rotulo {}
 
-.secao-estatisticas__rotulo {
-}
+.secao-estatisticas__valor {}
 
-.secao-estatisticas__valor {
-}
+.secao-cursos {}
 
-.secao-cursos {
-}
+.secao-cursos__titulo {}
 
-.secao-cursos__titulo {
-}
+.secao-cursos__filtros {}
 
-.secao-cursos__filtros {
-}
+.secao-cursos__filtro {}
 
-.secao-cursos__filtro {
-}
+.secao-cursos__filtro--todos {}
 
-.secao-cursos__filtro--todos {
-}
+.secao-cursos__filtro--negocios {}
 
-.secao-cursos__filtro--negocios {
-}
+.secao-cursos__filtro--design {}
 
-.secao-cursos__filtro--design {
-}
+.secao-cursos__filtro--desenvolvimento {}
 
-.secao-cursos__filtro--desenvolvimento {
-}
+.secao-cursos__filtro--gestao {}
 
-.secao-cursos__filtro--gestao {
-}
+.secao-cursos__filtro--tecnologia {}
 
-.secao-cursos__filtro--tecnologia {
-}
+.secao-cursos__filtro--foto {}
 
-.secao-cursos__filtro--foto {
-}
+.secao-cursos__card {}
 
-.secao-cursos__card {
-}
+.curso-card {}
 
-.curso-card {
-}
+.curso-card__imagem {}
 
-.curso-card__imagem {
-}
+.curso-card__preco {}
 
-.curso-card__preco {
-}
+.curso-card__avaliacao {}
 
-.curso-card__avaliacao {
-}
+.curso-card__titulo {}
 
-.curso-card__titulo {
-}
+.curso-card__instrutor {}
 
-.curso-card__instrutor {
-}
+.curso-card__destaque {}
 
-.curso-card__destaque {
-}
+.curso-card__divisor {}
 
-.curso-card__divisor {
-}
+.curso-card__meta {}
 
-.curso-card__meta {
-}
+.curso-card__meta-item {}
 
-.curso-card__meta-item {
-}
+.curso-card__meta-item--alunos {}
 
-.curso-card__meta-item--alunos {
-}
+.curso-card__meta-item--duracao {}
 
-.curso-card__meta-item--duracao {
-}
-
-.flex-image-profealuno{
+.flex-image-profealuno {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #cabecalho-principal {
-  display: flex; 
+  display: flex;
   padding: 0px 0px 0px 184px;
 }
 
@@ -228,13 +190,19 @@
   margin: 18px 160px 0px 160px;
 }
 
-#botao-comecar {height: 38px;margin-top: 9px;background-color: #0F6B5E;color: #ffffff;border: none;border-radius: 7px;width: 110px;}
-
-#conteudo-principal {
+#botao-comecar {
+  height: 38px;
+  margin-top: 9px;
+  background-color: #0F6B5E;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  width: 110px;
 }
 
-#secao-hero {
-}
+#conteudo-principal {}
+
+#secao-hero {}
 
 #titulo-principal {
   color: #1D7063;
@@ -243,8 +211,7 @@
   font-weight: 600;
 }
 
-#formulario-busca {
-}
+#formulario-busca {}
 
 #seletor-categoria-1 {
   background-color: #0F6B5E;
@@ -267,12 +234,13 @@
   font-size: 14px;
   color: #333;
 }
+
 #campo-busca::placeholder {
   color: #8A8A8A;
 }
 
 #botao-buscar {
-   background-color: #0F6B5E;
+  background-color: #0F6B5E;
   color: #fff;
   border: none;
   border-radius: 15px;
@@ -288,47 +256,32 @@
   margin-top: -100px
 }
 
-#secao-estatisticas {
-}
+#secao-estatisticas {}
 
-#conteudo-estatisticas {
-}
+#conteudo-estatisticas {}
 
-#estatistica-alunos {
-}
+#estatistica-alunos {}
 
-#estatistica-cursos {
-}
+#estatistica-cursos {}
 
-#estatistica-instrutores {
-}
+#estatistica-instrutores {}
 
-#secao-cursos {
-}
+#secao-cursos {}
 
-#titulo-cursos {
-}
+#titulo-cursos {}
 
-#filtros-cursos {
-}
+#filtros-cursos {}
 
-#curso-1 {
-}
+#curso-1 {}
 
-#curso-2 {
-}
+#curso-2 {}
 
-#curso-3 {
-}
+#curso-3 {}
 
-#curso-4 {
-}
+#curso-4 {}
 
-#curso-5 {
-}
+#curso-5 {}
 
-#curso-6 {
-}
+#curso-6 {}
 
-#curso-7 {
-}
+#curso-7 {}
