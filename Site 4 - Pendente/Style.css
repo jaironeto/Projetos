@@ -12,6 +12,10 @@
   padding-inline-start: 0px;
 }
 
+#icone1 {
+  height: 90px;
+}
+
 .pagina {}
 
 .linear-degrade-img {
@@ -113,19 +117,43 @@
 
 .secao-estatisticas__conteudo {}
 
-.secao-estatisticas__lista {}
+.secao-estatisticas__lista {
+  display: flex;
+  list-style: none;
+}
 
 .secao-estatisticas__item {}
 
-.secao-estatisticas__card {}
+.secao-estatisticas__card {
+  background-color: #e9f5f3;
+  border-radius: 12px;
+  display: flex;
+  width: 250px;
+  margin-left: 20px;
+}
 
 .secao-estatisticas__icone {}
 
-.secao-estatisticas__info {}
+.secao-estatisticas__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.secao-estatisticas__rotulo {}
+.secao-estatisticas__rotulo {
+  display: block;
+  margin: -5px 0px 20px 0px;
+  font-family: 'Poppins', sans-serif;
+}
 
-.secao-estatisticas__valor {}
+.secao-estatisticas__valor {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0F6B5E;
+  line-height: 1.1;
+}
 
 .secao-cursos {}
 
