@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 120 120" fill="none" stroke="#0F6B5E" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Linhas esquerda -->
+  <path d="M4 52 H12" />
+  <path d="M18 52 H32" />
+  <path d="M4 68 H12" />
+  <path d="M18 68 H32" />
+  <path d="M4 84 H12" />
+  <path d="M18 84 H32" />
+  <path d="M4 100 H12" />
+  <path d="M18 100 H32" />
+  <!-- Chapéu -->
+  <path d="M60 10 L104 30 L60 50 L16 30 Z" />
+  <path d="M36 38 V48 C36 56 84 56 84 48 V38" />
+  <!-- Borla direita -->
+  <path d="M104 30 V60" />
+  <path d="M104 60 C99 66 99 73 104 73 C109 73 109 66 104 60" />
+  <!-- Globo -->
+  <circle cx="60" cy="60" r="26" />
+  <ellipse cx="60" cy="60" rx="11" ry="26" />
+  <path d="M34 60 H86" />
+  <path d="M40 45 C50 51 70 51 80 45" />
+  <path d="M40 75 C50 69 70 69 80 75" />
+  <!-- Livro -->
+  <path d="M22 94 C32 84 48 84 60 90 C72 84 88 84 98 94 V110 H22 Z" />
+  <path d="M60 90 V110" />
+  <path d="M22 94 L60 110" />
+  <path d="M98 94 L60 110" />
+</svg>

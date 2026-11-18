@@ -16,6 +16,12 @@
   height: 90px;
 }
 
+#icone2 {
+  height: 70px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
 .pagina {}
 
 .linear-degrade-img {
@@ -120,6 +126,8 @@
 .secao-estatisticas__lista {
   display: flex;
   list-style: none;
+  margin-left: 200px;
+  margin-top: 50px;
 }
 
 .secao-estatisticas__item {}
@@ -129,7 +137,8 @@
   border-radius: 12px;
   display: flex;
   width: 250px;
-  margin-left: 20px;
+  height: 100px;
+  margin-left: 40px;
 }
 
 .secao-estatisticas__icone {}
@@ -155,7 +164,9 @@
   line-height: 1.1;
 }
 
-.secao-cursos {}
+.secao-cursos {
+  margin-top: 130px;
+}
 
 .secao-cursos__titulo {}
 
@@ -239,7 +250,10 @@
   font-weight: 600;
 }
 
-#formulario-busca {}
+#formulario-busca {
+  position: relative;
+  z-index: 2;
+}
 
 #seletor-categoria-1 {
   background-color: #0F6B5E;
@@ -281,7 +295,8 @@
 
 #imagem-hero {
   width: 1100px;
-  margin-top: -100px
+  margin-top: -100px;
+  pointer-events: none;
 }
 
 #secao-estatisticas {}
@@ -296,9 +311,25 @@
 
 #secao-cursos {}
 
-#titulo-cursos {}
+#titulo-cursos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-left: 50px;
+}
 
-#filtros-cursos {}
+#filtros-cursos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
 
 #curso-1 {}
 
@@ -313,3 +344,34 @@
 #curso-6 {}
 
 #curso-7 {}
+
+.secao-rotulo-2 {
+  margin-left: 15px;
+}
+
+.valor1 {
+  margin: -10px 26px 0px 0px;
+}
+
+.valor2 {
+  margin: -10px 15px 0px 0px;
+
+}
+
+#foto3 {
+  height: 70px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.textoRotulo3 {
+  margin: -15px 0px 0px 15px;
+}
+
+.valorRotulo3 {
+  margin: 10px 14px 0px 0px;
+}
+
+.azuzinho{  background-color: #E8F7F9;
+  border-radius: 6px;
+}
